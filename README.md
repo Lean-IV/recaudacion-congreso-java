@@ -1,140 +1,70 @@
-&nbsp;Sistema de Recaudacion de Congreso (Java)
+ SISTEMA DE RECAUDACION DE CONGRESO (JAVA)
 
+Proyecto académico desarrollado en Java que modela el sistema de recaudación de un congreso, contemplando la gestión de personas, auspiciantes, conferencias, entradas y espectadores, aplicando principios de Programación Orientada a Objetos.
 
+--
 
-Proyecto academico desarrollado en Java que modela el sistema de recaudacion de un congreso, contemplando la gestion de personas, auspiciantes, conferencias, entradas y espectadores, aplicando principios de Programacion Orientada a Objetos.
-
-
-
----
-
-
-
-&nbsp; Objetivo del proyecto
-
-
+ OBJETIVOS DEL PROYECTO
 
 Simular un sistema que permita:
+- Gestionar la recaudación económica de un congreso
+- Modelar distintos tipos de participantes y entidades
+- Aplicar reglas de negocio asociadas a eventos y entradas
+- Centralizar la lógica en una clase principal de gestión
 
-\- Gestionar la recaudacion economica de un congreso
+El foco del proyecto está puesto en el modelado del dominio y en la correcta aplicación de conceptos OO.
 
-\- Modelar distintos tipos de participantes y entidades
+--
 
-\- Aplicar reglas de negocio asociadas a eventos y entradas
+ CONCEPTOS APLICADOS
 
-\- Centralizar la logica en una clase principal de gestion
+- Programación Orientada a Objetos (POO)
+- Encapsulamiento
+- Herencia
+- Polimorfismo
+- Clases abstractas
+- Uso de colecciones (`ArrayList`)
+- Separación de responsabilidades
+- Métodos de negocio y validaciones
+- Clase de prueba para validación del funcionamiento
 
+--
 
-
-El foco del proyecto esta puesto en el modelado del dominio y en la correcta aplicacion de conceptos OO.
-
-
-
----
-
-
-
-&nbsp; Conceptos aplicados
-
-
-
-\- Programacion Orientada a Objetos (POO)
-
-\- Encapsulamiento
-
-\- Herencia
-
-\- Polimorfismo
-
-\- Clases abstractas
-
-\- Uso de colecciones ('ArrayList')
-
-\- Separacion de responsabilidades
-
-\- Metodos de negocio y validaciones
-
-\- Clase de prueba para validacion del funcionamiento
-
-
-
----
-
-
-
-&nbsp; Estructura del proyecto
-
-
+ ESTRUCTURA DEL PROYECTO
 
 src/
-
-\- modulo/
-
-&nbsp; -- Persona.java
-
-&nbsp; -- Espectador.java
-
-&nbsp; -- Auspiciante.java
-
-&nbsp; -- Conferencia.java
-
-&nbsp; -- Entrada.java
-
-&nbsp; -- Congreso.java
-
-\- test/
-
-&nbsp; -- Test.java
+- modulo/
+  -- Persona.java
+  -- Espectador.java
+  -- Auspiciante.java
+  -- Conferencia.java
+  -- Entrada.java
+  -- Congreso.java
+- test/
+  -- Test.java
 
 
+- modulo: contiene las clases del dominio y la lógica del sistema
+- test: contiene una clase de prueba para ejecutar y validar el funcionamiento
 
+--
 
+ EJECUCION
 
-\- modulo: contiene las clases del dominio y la logica del sistema
+1. Importar el proyecto en un IDE Java (por ejemplo, Eclipse)
+2. Ejecutar la clase `Test.java`
+3. Observar la salida por consola, donde se validan las distintas operaciones del sistema
 
-\- test: contiene una clase de prueba para ejecutar y validar el funcionamiento
+--
 
+ NOTAS
 
+- Proyecto realizado como parte de evaluaciones académicas
+- No utiliza frameworks externos
+- Enfocado en lógica, diseño y claridad del código
 
----
+--
 
-
-
-&nbsp; Ejecucion
-
-
-
-1\. Importar el proyecto en un IDE Java (por ejemplo, Eclipse)
-
-2\. Ejecutar la clase 'Test.java'
-
-3\. Observar la salida por consola, donde se validan las distintas operaciones del sistema
-
-
-
----
-
-
-
-&nbsp; Notas
-
-
-
-\- Proyecto realizado como parte de evaluaciones academicas
-
-\- No utiliza frameworks externos
-
-\- Enfocado en logica, diseño y claridad del codigo
-
-
-
----
-
-
-
-&nbsp; Autor
-
-
+ AUTOR
 
 Leandro Vera
-
