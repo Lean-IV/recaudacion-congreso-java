@@ -33,16 +33,19 @@ El foco del proyecto está puesto en el modelado del dominio y en la correcta ap
  ESTRUCTURA DEL PROYECTO
 
 src/
-- modulo/
-  -- Persona.java
-  -- Espectador.java
-  -- Auspiciante.java
-  -- Conferencia.java
-  -- Entrada.java
-  -- Congreso.java
-- test/
-  -- Test.java
 
+-modulo/
+
+  - Persona.java
+  - Espectador.java
+  - Auspiciante.java
+  - Conferencia.java
+  - Entrada.java
+  - Congreso.java
+
+-test/
+
+  - Test.java
 
 - modulo: contiene las clases del dominio y la lógica del sistema
 - test: contiene una clase de prueba para ejecutar y validar el funcionamiento
