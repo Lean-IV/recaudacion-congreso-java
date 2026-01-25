@@ -34,7 +34,7 @@ El foco del proyecto está puesto en el modelado del dominio y en la correcta ap
 
 src/
 
--modulo/
+-modelo/
 
   - Persona.java
   - Espectador.java
@@ -47,8 +47,8 @@ src/
 
   - Test.java
 
-- modulo: contiene las clases del dominio y la lógica del sistema
-- test: contiene una clase de prueba para ejecutar y validar el funcionamiento
+ modelo: contiene las clases del dominio y la lógica del sistema
+ test: contiene una clase de prueba para ejecutar y validar el funcionamiento
 
 --
 
