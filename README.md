@@ -23,7 +23,7 @@ El foco del proyecto está puesto en el modelado del dominio y en la correcta ap
 - Herencia
 - Polimorfismo
 - Clases abstractas
-- Uso de colecciones (`ArrayList`)
+- Uso de colecciones (ArrayList)
 - Separación de responsabilidades
 - Métodos de negocio y validaciones
 - Clase de prueba para validación del funcionamiento
@@ -48,6 +48,7 @@ src/
   - Test.java
 
  modelo: contiene las clases del dominio y la lógica del sistema
+
  test: contiene una clase de prueba para ejecutar y validar el funcionamiento
 
 --
@@ -55,7 +56,7 @@ src/
  EJECUCION
 
 1. Importar el proyecto en un IDE Java (por ejemplo, Eclipse)
-2. Ejecutar la clase `Test.java`
+2. Ejecutar la clase Test.java
 3. Observar la salida por consola, donde se validan las distintas operaciones del sistema
 
 --
